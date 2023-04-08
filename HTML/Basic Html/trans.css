@@ -1,0 +1,37 @@
+#norm{
+    width: 160px;
+    height: 80px;
+    border: solid;
+    border-color: blue;
+    background-color: tomato;
+    transition:border-radius 1s,background-color 2s;
+}
+#norm:hover{
+    background: #a84909;
+    border-radius: 40px;
+}
+section div{
+    height: 50px;
+    width: 50px;
+    background-color:aqua;
+    margin: 20px 0;
+    transition: margin-left 3s,background-color 2s, border-radius 3s;
+}
+section:hover div {
+    border: dotted;
+    border-radius: 50%;
+    background-color: rgb(117, 191, 32);
+    margin-left:500px ;
+}
+div:nth-of-type(1){
+    transition-timing-function:ease-in ;
+}
+div:nth-of-type(2){
+    transition-timing-function:ease-out ;
+}
+div:nth-of-type(3){
+    transition-timing-function:ease-in-out ;
+}
+div:nth-of-type(4){
+    transition-timing-function:ease-in ;
+}

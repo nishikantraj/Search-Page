@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Page</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="search.css" />
+  </head>
+  <body>
+    <div class="bg_image">
+      <h1>Direct search from this page:)</h1>
+      <div class="marg">
+        <div>
+          <form action="https://www.udemy.com/" target="_blank">
+            <label>Udemy:</label>
+            <button class="stylish">Go to Udemy</button>
+          </form>
+        </div>
+        <div>
+          <form action="https://www.google.com/search?q" target="_blank">
+            <label for="google">Google Search:</label>
+            <input
+              id="google"
+              type="text"
+              name="q"
+              placeholder="Search anything"
+            />
+            <button class="stylish">Click Me!!</button>
+          </form>
+        </div>
+        <div>
+          <form
+            action="https://www.youtube.com/results?search_query"
+            target="_blank"
+          >
+            <label for="youtube"> YouTube:</label>
+            <input
+              id="youtube"
+              type="text"
+              name="search_query"
+              placeholder="Search for videos"
+            />
+            <button class="stylish">Hit Me!!</button>
+          </form>
+        </div>
+        <div>
+          <form action="https://m.vegamovies.love/?s" target="_blank">
+            <label for="vega">Vegamovies</label>
+            <input
+              id="vega"
+              name="s"
+              type="text"
+              placeholder="search for Movies"
+            />
+            <button class="stylish">Ahhh! Hit me</button>
+          </form>
+        </div>
+        <div>
+          <label for="opt">Choose one:</label>
+          <select id="opt" name="site">
+            <option value="" selected>--Select prefferd site--</option>
+            <option value="google">Google</option>
+            <option value="youtube">YouTube</option>
+            <option value="vegamovies">VegaMovies</option>
+          </select>
+        </div>
+        <div>
+          <label for="rate">How much would you rate this page?</label>
+          <input type="range" id="rate" name="rate" list="markers" value="50" />
+
+          <datalist id="markers">
+            <option value="0"></option>
+            <option value="25"></option>
+            <option value="50"></option>
+            <option value="75"></option>
+            <option value="100"></option>
+          </datalist>
+        </div>
+        <div>
+          <form action="feedback.html">
+            <p><b>How was your experience?</b></p>
+            <input id="he" type="radio" name="ans" value="Bad" />
+            <label for="he">Bad</label>
+            <input id="ref" type="radio" name="ans" value="Not Good not Bad" />
+            <label for="ref">Neither Good Nor Bad</label>
+            <input id="jho" type="radio" name="ans" value="Good" />
+            <label for="jho">Good</label>
+            <input id="mac" type="radio" name="ans" value="Excellent" />
+            <label for="mac">Excellent</label>
+            <div>
+              <label for="idea">Suggest some idea:</label><br />
+              <textarea
+                class="transparent"
+                id="idea"
+                placeholder="Type here"
+                rows="8"
+                cols="40"
+                minlength="10"
+                maxlength="500"
+                required
+              ></textarea>
+            </div>
+            <button class="stylish">Submit</button>
+          </form>
+        </div>
+
+        <div>
+          <form action="\emial">
+            <label for="emailid">Enter your E-mail ID:</label>
+            <input
+              id="emailid"
+              type="email"
+              name="email"
+              placeholder="abc12@gmail.com"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              required
+            />
+            <button class="stylish">Submit</button>
+          </form>
+        </div>
+        <h3 style="text-align: center">
+          <p>
+            <b><i>Be with us till the next update:)</i></b>
+          </p>
+        </h3>
+      </div>
+    </div>
+  </body>
+</html>

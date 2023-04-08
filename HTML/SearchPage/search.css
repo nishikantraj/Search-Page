@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  /* font-family:Roboto Slab,serif; */
+}
+.bg_image {
+  background-image: url("img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  color: rgb(13, 231, 104);
+}
+.stylish {
+  background-color: #000000;
+  border-radius: 5px;
+  border: 1.5px;
+  border-style: solid;
+  border-color: coral;
+  box-sizing: border-box;
+  color: coral;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  height: 25px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding-left:1px 8px 1px 8px;
+  position: relative;
+  text-align: center;
+  text-decoration:none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  transition: border-color 0.2s;
+}
+.stylish:hover {
+  border-color: #f1f15c;
+  color: rgb(239, 239, 239);
+  transform:translateY(-0.15em);
+  box-shadow: 0 0.5em 0.5em -0.4em inset #f1f15c ;
+  }
+.stylish:active {
+  background-color: rgb(62, 238, 194);
+}
+.marg div {
+  margin: 6px;
+  font-size: larger;
+  font-weight: 400;
+}
+input{
+  padding: 4px 10px 4px 10px;
+  border-radius: 2em;
+  background-color: rgb(175, 218, 203);
+}
+select{
+  padding: 4px 10px 4px 10px;
+  border-radius: 2em;
+  background-color: rgb(175, 218, 203);
+}
+textarea{
+  padding: 4px 10px 4px 10px;
+  border-radius: 0.5em;
+  background-color: rgb(175, 218, 203);
+}
