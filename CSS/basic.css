@@ -1,0 +1,29 @@
+h1 {
+  color: rgb(30, 130, 63);
+  text-align:center;
+  font-family:fantasy;
+  font-weight: 400;
+  font-size: 20px;
+}
+h2 {
+  color: magenta;
+}
+p {
+  /* color: white; 
+  background-color: black; */
+  line-height: 1.5;
+  font-family:Verdana;
+}
+button {
+  color: red;
+  background-color: pink;
+}
+h3{
+  text-align:center;
+  text-transform: capitalize;
+  letter-spacing: 20px;
+  text-decoration: pink underline wavy;
+  font-family: monospace;
+  font-weight:100;
+  font-size: 40px;
+}

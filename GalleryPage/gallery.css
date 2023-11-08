@@ -1,0 +1,10 @@
+img{
+    width: 25%;
+    margin: calc(25%/6.5);
+}
+nav{
+    border-bottom: 3px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(25%/6.5);
+    padding: 20px 0;
+}
